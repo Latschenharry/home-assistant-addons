@@ -14,8 +14,6 @@ arch:
 ingress: true
 ingress_port: 8080
 ingress_stream: true
-map:
-  - App:rw
 options:
   app_log_level: info
 schema:
