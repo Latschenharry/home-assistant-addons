@@ -3,7 +3,7 @@
   "version": "v1.4.7",
   "slug": "lubelogger",
   "description": "LubeLogger Web UI – eingebunden in Home Assistant via Ingress.",
-  "url": "https://github.com/hargata/lubelog",
+  "url": "https://github.com/hargata/lubelogger",
   "image": "ghcr.io/hargata/lubelog",
   "startup": "services",
   "boot": "auto",
