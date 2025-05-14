@@ -11,6 +11,8 @@ homeassistant_api: true
 init: false
 arch:
   - amd64
+map:
+- addon_config:rw
 ingress: true
 ingress_port: 8080
 ingress_stream: true
