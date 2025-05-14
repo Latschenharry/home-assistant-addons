@@ -4,7 +4,7 @@ slug: ha_lubelogger
 name: LubeLogger
 description: LubeLogger HA Addon
 url: https://github.com/Latschenharry/home-assistant-addons
-panel_icon: mdi:hub
+panel_icon: mdi:car-cog
 panel_title: LubeLogger
 homeassistant: 2025.5.1
 homeassistant_api: true
