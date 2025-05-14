@@ -1,0 +1,25 @@
+{
+  "name": "LubeLogger",
+  "version": "1.0.0",
+  "slug": "lubelogger",
+  "description": "LubeLogger Web UI – eingebunden in Home Assistant via Ingress.",
+  "url": "https://github.com/hargata/lubelog",
+  "image": "ghcr.io/hargata/lubelog",
+  "startup": "services",
+  "boot": "auto",
+  "ingress": true,
+  "ingress_port": 8080,
+  "panel_icon": "mdi:oil",
+  "panel_title": "LubeLogger",
+  "host_network": false,
+  "privileged": [],
+  "arch": ["amd64", "aarch64"],
+  "ports": {
+    "8080/tcp": null
+  },
+  "ports_description": {
+    "8080/tcp": "HTTP Web UI (nur bei Debug wichtig)"
+  },
+  "options": {},
+  "schema": {}
+}
