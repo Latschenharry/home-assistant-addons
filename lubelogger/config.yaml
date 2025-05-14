@@ -17,9 +17,9 @@ arch:
 ingress: true
 ingress_port: 0
 ports:
-  80/tcp: null
+  8000/tcp: 8080
 ports_description:
-  80/tcp: Web interface (Not required for Ingress)
+  8000/tcp: Web interface (Not required for Ingress)
 map:
   - addon_config:rw
 options:
