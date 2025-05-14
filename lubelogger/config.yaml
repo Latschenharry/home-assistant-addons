@@ -17,10 +17,8 @@ ingress: true
 ingress_port: 8080
 ingress_stream: true
 map:
-  - App:rw
+  - /App:rw
 options:
   app_log_level: info
-  disable_log_colors: false
 schema:
   app_log_level: list(silly|debug|info|notice|warn|error|fatal)
-  disable_log_colors: bool
