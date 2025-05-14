@@ -17,6 +17,9 @@
   "ports_description": {
     "8089/tcp": "Externe Weboberfläche (http://homeassistant.local:8089)"
   },
+  "volumes": [
+    "addons_config:/App"
+  ],
   "options": {},
   "schema": {}
 }
