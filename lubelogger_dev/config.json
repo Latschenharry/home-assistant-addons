@@ -15,7 +15,7 @@
     "8089/tcp": 8080
   },
   "ports_description": {
-    "8089/tcp": "Externe Weboberfläche (http://homeassistant.local:8081)"
+    "8089/tcp": "Externe Weboberfläche (http://homeassistant.local:8089)"
   },
   "options": {},
   "schema": {}
