@@ -16,6 +16,10 @@ arch:
   - armv7
 ingress: true
 ingress_port: 0
+ports:
+  80/tcp: null
+ports_description:
+  80/tcp: Web interface (Not required for Ingress)
 map:
   - addon_config:rw
 options:
