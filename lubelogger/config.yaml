@@ -8,7 +8,6 @@ panel_icon: mdi:car-cog
 panel_title: LubeLogger
 homeassistant: 2025.5.1
 homeassistant_api: true
-host_network: true
 init: false
 arch:
   - aarch64
