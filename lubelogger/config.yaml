@@ -1,12 +1,12 @@
-version: "3.0.0-alpha.69"
-image: ghcr.io/t0bst4r/home-assistant-matter-hub-addon
+version: "v1.4.7"
+image: ghcr.io/hargata/lubelogger
 slug: ha_lubelogger
 name: LubeLogger
 description: LubeLogger HA Addon
 url: https://github.com/Latschenharry/home-assistant-addons
 panel_icon: mdi:hub
 panel_title: LubeLogger
-homeassistant: 2024.1.0
+homeassistant: 2025.5.1
 homeassistant_api: true
 host_network: true
 init: false
